@@ -63,31 +63,46 @@ A hands-on project where I manually built a 3-tier AWS architecture from scratch
 ### VPC & Networking
 
 ![VPC created](screenshots/01-vpc-created.png)
+
 ![Subnets created](screenshots/02-subnets.png)
-![Internet Gateway attached](screenshots/03-igw-attached.png)
+
 ![Route tables configured](screenshots/04-route-tables.png)
+
 
 ### EC2 Web Server
 
 ![Security group rules](screenshots/05-ec2-security-group.png)
+
 ![IAM role created](screenshots/06-iam-role.png)
+
 ![EC2 instance running](screenshots/07-ec2-running.png)
+
 ![SSH connection successful](screenshots/08-ssh-connected.png)
+
 ![Apache default page live](screenshots/09-apache-live.png)
+
 
 ### RDS Database
 
 ![RDS security group](screenshots/10-rds-security-group.png)
+
 ![DB subnet group](screenshots/11-db-subnet-group.png)
+
 ![RDS instance available](screenshots/12-rds-available.png)
+
 ![Connected to MySQL from EC2](screenshots/13-mysql-connected.png)
+
 ![Test query results](screenshots/14-test-query.png)
+
 
 ### S3 + IAM Role Access
 
 ![S3 bucket created](screenshots/15-s3-bucket.png)
+
 ![File uploaded to S3](screenshots/16-s3-file-uploaded.png)
+
 ![aws s3 ls from EC2 (no credentials used)](screenshots/17-s3-cli-access.png)
+
 
 ### Cleanup
 
