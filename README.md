@@ -131,12 +131,3 @@ To avoid unexpected AWS charges, resources were deleted in this order:
 4. VPC components (security groups → route tables → subnets → IGW → VPC)
 5. IAM role
 6. DB subnet group
-
----
-
-## 🔜 Next Steps / Ideas for Further Practice
-
-- [ ] Add a second EC2 instance behind an Application Load Balancer
-- [ ] Enable S3 versioning
-- [ ] Write a scoped IAM policy limited to a single bucket
-- [ ] Enable RDS automated backups and test snapshot restore
